@@ -1,0 +1,10 @@
+2018-07-07 12:47:30,294 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-07 12:47:33,207 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Skiped
+2018-07-07 12:47:33,248 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-07 12:47:46,774 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-07 12:47:50,551 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-07 12:47:50,660 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-07 12:47:50,661 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-07 12:47:50,717 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-07 12:47:50,718 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-07 12:47:50,770 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
