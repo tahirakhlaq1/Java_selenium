@@ -8,3 +8,15 @@
 2018-07-07 12:47:50,717 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
 2018-07-07 12:47:50,718 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
 2018-07-07 12:47:50,770 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-09 12:24:41,939 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-09 12:24:44,156 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Skiped
+2018-07-09 12:24:44,202 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-09 12:57:22,691 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-09 12:57:24,028 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Skiped
+2018-07-09 12:57:24,048 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-09 13:03:02,981 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-09 13:03:03,065 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Skiped
+2018-07-09 13:03:03,094 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-09 13:05:56,177 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-09 13:05:56,261 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Skiped
+2018-07-09 13:05:56,302 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully

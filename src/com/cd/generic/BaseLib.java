@@ -1,8 +1,11 @@
 package com.cd.generic;
 
+import java.util.logging.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
@@ -17,15 +20,24 @@ public class BaseLib {
 	public WebDriver driver;
 	public WaitStatementLib wLib;
 	public SoftAssert sAssert;
+	Logger log;
 	@BeforeMethod
 	@Parameters(value="browser")
 	
 	public void preCondition(){
-		//http://52.66.22.86/travelawareqa/public_html/index.html#/personnel/search
+		
 		//System.setProperty("webdriver.firefox.marionette"," .\\exefiles\\geckodriver.exe");
 		//driver = new FirefoxDriver();
 	//	System.setProperty("webdriver.chrome.driver"," .\\exefiles\\chromedriver.exe");
 		driver = new ChromeDriver();
+		//driver=new RemoteWebDriver(DesiredCapabilities.chrome());
+//		Reporter.log("chrome launched", true);
+//		log.info("chrome launched");
+	//	driver = new HtmlUnitDriver();
+		//driver = new RemoteWebDriver(DesiredCapabilities.chrome());
+		//log.info("HTML Browser launched");
+		Reporter.log("Html launched" , true);
+		
 	
 	/*	if (browser.equalsIgnoreCase("firefox")) {
 		System.setProperty("webdriver.firefox.marionette"," .\\exefiles\\geckodriver.exe");
@@ -53,7 +65,7 @@ public class BaseLib {
 	}*/
 		
 		driver.manage().window().maximize();
-		driver.get("https://www.collegedekho.com/colleges/iit-delhi");
+		driver.get("https://www.collegedekho.com/colleges/iit-delhi"); //https://www.collegedekho.com/colleges/iit-delhi
 		Reporter.log("Navigating to the url", true);
 		wLib=new WaitStatementLib();
 		wLib.implicitWaitForSeconds(driver, 20);
