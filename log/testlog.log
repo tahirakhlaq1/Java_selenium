@@ -20,3 +20,40 @@
 2018-07-09 13:05:56,177 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
 2018-07-09 13:05:56,261 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Skiped
 2018-07-09 13:05:56,302 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-10 09:56:15,432 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-10 09:56:26,228 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-10 09:56:30,039 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-10 09:56:34,443 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-10 09:56:40,811 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-10 09:56:40,811 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-10 09:56:41,300 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-13 12:50:48,939 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-13 12:50:53,580 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:50:58,630 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-13 12:50:58,630 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-13 12:50:58,816 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-13 12:50:58,817 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-13 12:50:58,884 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-13 12:53:26,827 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-13 12:53:50,054 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:54:19,952 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:54:26,365 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:54:38,803 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:54:48,195 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:55:09,221 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:55:18,013 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:55:29,830 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-13 12:55:29,830 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-13 12:55:29,870 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been failed 
+2018-07-13 12:55:29,870 [main] ERROR com.cd.generic.MyTestNGListener - Calling on TestFailure: 
+2018-07-13 12:55:29,947 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-07-13 12:58:32,089 [main] INFO com.cd.generic.MyTestNGListener - Test has been executed
+2018-07-13 12:58:37,038 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:58:46,582 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:58:50,950 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:59:12,732 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:59:25,590 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:59:35,551 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:59:40,037 [main] INFO com.cd.generic.MyTestNGListener - Test has been Started 
+2018-07-13 12:59:59,381 [main] INFO com.cd.generic.MyTestNGListener - Test Has been executed Successfully
+2018-07-13 12:59:59,394 [main] INFO com.cd.generic.MyTestNGListener - Test Has Been Completed Successfully

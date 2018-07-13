@@ -7,7 +7,8 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="" />
 		<classes>
-			<class name="com.cd.scripts.LeadonTest" />
+			<class name="com.cd.scripts.LeadFromDetailPageTest" />
+			<class name="com.cd.scripts.LeadFromListingPageTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

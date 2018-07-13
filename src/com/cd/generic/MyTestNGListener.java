@@ -25,7 +25,7 @@ public class MyTestNGListener implements ITestListener{
 	Logger log;
 	public MyTestNGListener() {
 		
-	DateFormat	dateformat= new SimpleDateFormat("dd_MM_YY_hh_mm_ss");
+	DateFormat	dateformat= new SimpleDateFormat("dd_MM_YYYY_hh_mm_ss");
 	Date date= new Date();
 	System.setProperty("LongTimeDate", dateformat.format(date));
 	log= Logger.getLogger(this.getClass());

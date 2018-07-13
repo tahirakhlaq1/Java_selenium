@@ -2,6 +2,9 @@ package com.cd.generic;
 
 import java.util.logging.Logger;
 
+import javax.mail.SendFailedException;
+
+import org.apache.commons.mail.EmailException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -36,7 +39,7 @@ public class BaseLib {
 	//	driver = new HtmlUnitDriver();
 		//driver = new RemoteWebDriver(DesiredCapabilities.chrome());
 		//log.info("HTML Browser launched");
-		Reporter.log("Html launched" , true);
+		Reporter.log("WEB Browser launched" , true);
 		
 	
 	/*	if (browser.equalsIgnoreCase("firefox")) {
@@ -65,7 +68,7 @@ public class BaseLib {
 	}*/
 		
 		driver.manage().window().maximize();
-		driver.get("https://www.collegedekho.com/colleges/iit-delhi"); //https://www.collegedekho.com/colleges/iit-delhi
+		driver.get("https://www.collegedekho.com"); 
 		Reporter.log("Navigating to the url", true);
 		wLib=new WaitStatementLib();
 		wLib.implicitWaitForSeconds(driver, 20);
@@ -75,10 +78,12 @@ public class BaseLib {
 	
 	
 	@AfterMethod
-	public void postCondition(){
+	public void postCondition() throws EmailException{
 		
 		driver.quit();
 		Reporter.log("browsers closed", true);
+	//	EmailLib.sendEmail();
+		
 	}
 
 }

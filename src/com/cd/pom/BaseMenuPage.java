@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public abstract class BaseMenuPage {
 	
-	@FindBy(how = How.XPATH, using = "//div[@class='nav-link'][contains(text(),'Engineering')]")
+	@FindBy(how = How.XPATH, using = "//div[contains(text(),'Engineering')]")
 	private WebElement mainMenu;
 
 	@FindBy(how = How.XPATH, using = "//a[@href='/btech-colleges-in-india/']")
